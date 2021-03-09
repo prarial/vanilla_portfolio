@@ -1,0 +1,25 @@
+.top_cover {
+  height: 450px;
+  background-color: #fff;
+  display: flex;
+}
+
+.top_title {
+  height: 200px;
+}
+
+.top_title__content {
+  border: 1px solid white;
+}
+.top_cover__left {
+  width: 70%;
+}
+
+.top_cover__cover {
+  width: 450px;
+  margin-top: 85px;
+}
+
+.top_cover__cover-content {
+  width: 450px;
+}

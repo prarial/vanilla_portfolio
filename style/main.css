@@ -5,61 +5,71 @@
 
 .main_content {
   display: flex;
-  justify-content: space-between;
-  width: 900px;
-  height: 180px;
-  border: 1px solid white;
-  margin-bottom: 45px;
+  width: 1200px;
+  height: 100px;
+  margin-bottom: 15px;
+  background-color: #181818;
 }
 
-.main_content__what {
+.main_content__cover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 150px;
-  border: 1px solid white;
+  width: 100px;
+  height: 100px;
   color: white;
-  margin-top: 15px;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.main_content__explain {
-  width: 600px;
-  height: 150px;
-  border: 1px solid white;
-  margin-top: 15px;
+.main_content__title {
+  width: 250px;
+  height: 100px;
   color: white;
 }
 
-.main_content__explain-top {
+.main_content__title-top {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 110px;
-  border: 1px solid white;
-  font-size: 37px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 15px;
 }
 
-.main_content__explain-bottom {
-  background-color: #fff;
+.main_content__title-bottom {
+  opacity: 0.8;
 }
 
 .main_content_explain-icons {
   width: 20px;
 }
 
+.main-content__track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 100px;
+  color: white;
+  opacity: 0.8;
+}
+
 .main_content__url {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 150px;
-  border: 1px solid white;
-  margin-top: 15px;
-  margin-right: 10px;
+  width: 250px;
+  height: 100px;
 }
 
 .paint_name {
-  width: 80px;
+  width: 100px;
+}
+
+.main-content__use {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  color: white;
 }
