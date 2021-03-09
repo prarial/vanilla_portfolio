@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main_content {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  height: 180px;
+  border: 1px solid white;
+  margin-bottom: 45px;
+}
+
+.main_content__what {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border: 1px solid white;
+  color: white;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.main_content__explain {
+  width: 600px;
+  height: 150px;
+  border: 1px solid white;
+  margin-top: 15px;
+  color: white;
+}
+
+.main_content__explain-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  border: 1px solid white;
+  font-size: 37px;
+}
+
+.main_content__explain-bottom {
+  background-color: #fff;
+}
+
+.main_content_explain-icons {
+  width: 20px;
+}
+
+.main_content__url {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 150px;
+  border: 1px solid white;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.paint_name {
+  width: 80px;
+}
