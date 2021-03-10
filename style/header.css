@@ -1,6 +1,12 @@
 .hedden {
   display: none;
 }
+
+.header_link {
+  color: white;
+  text-decoration: none;
+}
+
 .header {
   height: 50px;
   display: flex;
@@ -16,6 +22,7 @@
 
 .header_item__menu {
   font-size: 30px;
+  cursor: pointer;
 }
 
 .header_item__hidden {
@@ -30,18 +37,18 @@
 .active {
   visibility: visible;
   opacity: 1;
-  animation: notificationAnimation 0.5s ease-in-out;
+  animation: notificationAnimation 0.1s ease-in-out;
 }
 
 @keyframes notificationAnimation {
   0% {
-    tranform: none;
+    transform: translateY(30px);
   }
   50% {
-    transform: translateX(-30px);
+    tranform: none;
   }
   100% {
-    transform: none;
+    tranform: none;
   }
 }
 
