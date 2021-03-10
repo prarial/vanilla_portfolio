@@ -5,14 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link />
+
     <link rel="stylesheet" href="style/style.css" />
     <title>main</title>
   </head>
   <body>
     <header>
       <div class="header">
-        <span class="header_item__home">home</span>
-        <span class="header_item__menu">bars</span>
+        <div class="header_item__logo">HOME</div>
+        <div class="header_item__hidden">
+          <span class="header_item__items">HOME</span>
+          <span class="header_item__items">ABOUT</span>
+          <span class="header_item__items">XXXX</span>
+        </div>
+        <span class="header_item__menu"><i class="fas fa-bars"></i></span>
       </div>
     </header>
     <div class="top_cover">
@@ -26,7 +32,15 @@
     <div class="top_title">
       <div class="top_title__content">
         <span>My Experiences</span>
-        <p>There are my practice & Experiences</p>
+        <p>There is my Practices & Experiences</p>
+      </div>
+    </div>
+    <div class="types">
+      <div class="types_warp">
+        <span class="types_warp__item">Name</span>
+        <span class="types_warp__item">Type</span>
+        <span class="types_warp__item">Use</span>
+        <span class="types_warp__item">Link</span>
       </div>
     </div>
     <div class="main">
@@ -51,7 +65,7 @@
             href="https://prarial.github.io/vanillaJSChallengeFin/"
             target="_blink"
           >
-            <h3>Go!</h3>
+            <i class="far fa-play-circle"></i>
           </a>
         </div>
       </div>
@@ -194,4 +208,8 @@
   </body>
   <script src="script/main.js"></script>
   <script src="script/header.js"></script>
+  <script
+    src="https://kit.fontawesome.com/2ad7c243bf.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

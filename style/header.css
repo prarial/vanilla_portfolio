@@ -1,3 +1,6 @@
+.hedden {
+  display: none;
+}
 .header {
   height: 50px;
   display: flex;
@@ -5,5 +8,43 @@
   align-items: center;
   background-color: #181818;
   padding: 18px;
-  color: blue;
+  color: white;
+}
+.header_item__logo {
+  width: 70%;
+}
+
+.header_item__menu {
+  font-size: 30px;
+}
+
+.header_item__hidden {
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.active {
+  visibility: visible;
+  opacity: 1;
+  animation: notificationAnimation 0.5s ease-in-out;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    tranform: none;
+  }
+  50% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.header_item__items:hover {
+  color: #ff5252;
 }

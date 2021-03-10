@@ -1,11 +1,25 @@
 const bars = document.querySelector(".header_item__menu");
+const header = document.querySelector(".header_item__hidden");
 
-function handleOpener() {
-  bars.style.color = "red";
+const ACTIVE = "active",
+  HIDDEN = "hidden";
+
+let control = "true";
+
+function handleClick() {
+  if (control === "true") {
+    header.classList.add(ACTIVE);
+    bars.style.color = "red";
+    control = "false";
+  } else {
+    header.classList.remove(ACTIVE);
+    control = "true";
+    bars.style.color = "white";
+  }
 }
 
 function one() {
-  bars.addEventListener("click", handleOpener);
+  bars.addEventListener("click", handleClick);
 }
 
 one();
