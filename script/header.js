@@ -18,8 +18,8 @@ function handleClick() {
   }
 }
 
-function one() {
+function init() {
   bars.addEventListener("click", handleClick);
 }
 
-one();
+init();

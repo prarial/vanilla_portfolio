@@ -1,15 +1,41 @@
 .top_cover {
   height: 450px;
-  background-color: #fff;
+  background-color: #ecf0f1;
   display: flex;
-  background: rgb(215, 161, 240);
+  background: rgb(41, 98, 99);
   background: radial-gradient(
     circle,
-    rgba(215, 161, 240, 1) 0%,
-    rgba(160, 198, 234, 1) 47%,
-    rgba(217, 160, 232, 1) 68%,
-    rgba(245, 144, 144, 0.8407738095238095) 100%
+    rgba(41, 98, 99, 1) 0%,
+    rgba(186, 67, 68, 1) 100%
   );
+}
+.top_cover__left-git-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 19%;
+  height: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #ecf0f1;
+  border-bottom: 4px solid #5f27cd;
+}
+.top_cover__left-git-wrap_wrap {
+  text-decoration: none;
+}
+
+.top_cover__left-git-wrap:hover {
+  background-color: #c8d6e5;
+  color: #576574;
+  border-bottom: 4px solid #341f97;
+}
+.top_cover__left-git {
+  font-size: 50px;
+  color: black;
+}
+.top_cover__left-git_text {
+  font-size: 25px;
 }
 
 .top_title {
@@ -32,6 +58,7 @@
 
 .top_cover__left {
   width: 70%;
+  display: flex;
 }
 
 .top_cover__cover {
